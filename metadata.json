@@ -1,0 +1,8 @@
+{
+  "name": "Gemini Live Control",
+  "description": "Advanced Control Center & Playground for Google's 4 Live Gemini Models with dynamic capability toggles, payload filtering, and live sandbox.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

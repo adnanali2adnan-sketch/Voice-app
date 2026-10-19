@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:translateX="13.5"
+        android:translateY="13.5">
+        <!-- Live outer pulse ring -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M54,16 A38,38 0 1,1 53.9,16"
+            android:strokeWidth="2.5"
+            android:strokeColor="#3300E5FF" />
+        
+        <!-- Live audio pulse arcs -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M54,24 A30,30 0 1,1 53.9,24"
+            android:strokeWidth="2.5"
+            android:strokeColor="#6600E5FF" />
+
+        <!-- Gemini 4-point Diamond Star -->
+        <path
+            android:pathData="M54,20 C54,38 40,54 20,54 C40,54 54,70 54,88 C54,70 68,54 88,54 C68,54 54,38 54,20 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="20"
+                    android:startY="20"
+                    android:endX="88"
+                    android:endY="88"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#00E5FF" />
+                    <item android:offset="0.5" android:color="#38BDF8" />
+                    <item android:offset="1.0" android:color="#A855F7" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Inner Core Highlight -->
+        <path
+            android:pathData="M54,42 C54,48 48,54 42,54 C48,54 54,60 54,66 C54,60 60,54 66,54 C60,54 54,48 54,42 Z"
+            android:fillColor="#FFFFFF" />
+    </group>
+</vector>
